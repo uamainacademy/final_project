@@ -1,22 +1,28 @@
 # final_project
 
-Final project tasks
+**Final project tasks**
+
+1. All following test cases should be implemented with BDD using Page Object pattern
+2. Logging and Reporting should be implemented
+3. Should be abillity to run tests in 2 threads
+4. Should be ability to pass browser from command line, and run tests with specific browser
+5. All logical blocks on pages should be implemented as separate classes
 
 
-Test case #1 (Subscribe with invalid email)
+**Test case #1 (Subscribe with invalid email)**
 1. Go to the https://demo.prestashop.com/
 2. On the buttom of the page fill 'Get our latest news and special sales' field with invalid email (like tttt@ttt)
 3. Click on 'Subscribe' button
 4. Check that 'Invalid email address.' appear
 
 
-Test case #2 (Check languages)
+**Test case #2 (Check languages)**
 1. Go to the https://demo.prestashop.com/
 2. Check that 44 langueges exists in 'Language' dropdown in the top menu
 3. Check that 'Українська' language exist in dropdown
 
 
-Test case #3 (Registration with valid data)
+**Test case #3 (Registration with valid data)**
 1. Go to the https://demo.prestashop.com/
 2. Click on 'Sign in' button at the right corner of the page
 3. Click on 'No account? Create one here' link
@@ -25,7 +31,7 @@ Test case #3 (Registration with valid data)
 6. Check your name appear near cart button
 
 
-Test case #4 (Registration with invalid data)
+**Test case #4 (Registration with invalid data)**
 1. Go to the https://demo.prestashop.com/
 2. Click on 'Sign in' button at the right corner of the page
 3. Click on 'No account? Create one here' link
@@ -35,7 +41,7 @@ Test case #4 (Registration with invalid data)
 7. Check that pop-up with text 'Invalid name' appear under field
 
 
-Test case #5 (Check categories)
+**Test case #5 (Check categories)**
 1. Go to the https://demo.prestashop.com/
 2. Hover mouse over 'CLOTHES'
 3. Check that 'MEN' and 'WOMEN' sub menu items appears
@@ -45,7 +51,7 @@ Test case #5 (Check categories)
 7. Check that no any sub category appears
 
 
-Test case #6 (Check popular products)
+**Test case #6 (Check popular products)**
 1. Go to the https://demo.prestashop.com/
 2. Check that 8 products exist in 'POPULAR PRODUCTS' section
 3. Check that every product has name
@@ -53,14 +59,14 @@ Test case #6 (Check popular products)
 5. Check that all prices bigger than 0.00
 
 
-Test case #7 (Price drop check)
+**Test case #7 (Price drop check)**
 1. Go to the https://demo.prestashop.com/
 2. At the bottom of the page click on 'Prices drop' link
 3. Check that every product has old and new price
 4. Check that promo price for every product calculates correct
 
 
-Test case #8 (Sorting check)
+**Test case #8 (Sorting check)**
 1. Go to the https://demo.prestashop.com/
 2. Click on the 'All products >' under the 'POPULAR PRODUCTS' section
 3. Sort products as 'Name, A to Z'
@@ -73,7 +79,7 @@ Test case #8 (Sorting check)
 10. Check that sorting is correct
 
 
-Test case #9 (Adding to cart)
+**Test case #9 (Adding to cart)**
 1. Go to the https://demo.prestashop.com/
 2. In the search field enter 'Bear' and press 'Enter'
 3. On the 'SEARCH RESULTS' page click on 'Brown Bear Notebook'
@@ -85,7 +91,7 @@ Test case #9 (Adding to cart)
 9. Check that 'Total' calculated correct
 
 
-Test case #10 (Checkout end-to-end)
+**Test case #10 (Checkout end-to-end)**
 1. Go to the https://demo.prestashop.com/
 2. In the search field enter 'Mug' and press 'Enter'
 3. On the 'SEARCH RESULTS' page click on 'Customizable Mug'
