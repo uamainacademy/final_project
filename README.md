@@ -5,7 +5,7 @@
 1. All following test cases should be implemented with BDD using Page Object pattern
 2. Logging and Reporting should be implemented
 3. Should be abillity to run tests in 2 threads
-4. Should be ability to pass browser from command line, and run tests with specific browser
+4. Should be ability to pass browser, browser resolution, and thread count as parameters
 5. All logical blocks on pages should be implemented as separate classes
 
 
