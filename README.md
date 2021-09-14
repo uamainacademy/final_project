@@ -2,18 +2,19 @@
 
 **Final project tasks**
 
-1. All following test cases should be implemented with BDD using Page Object pattern
+1. All following test cases should be implemented with BDD or using Page Object pattern
 2. Logging and Reporting should be implemented
 3. Should be abillity to run tests in 2 threads
 4. Should be ability to pass browser, browser resolution, and thread count as parameters
 5. All logical blocks on pages should be implemented as separate classes
+6. If some test cases will fail - create bug report for them
 
 
 **Test case #1 (Subscribe with invalid email)**
 1. Go to the https://demo.prestashop.com/
-2. On the buttom of the page fill 'Get our latest news and special sales' field with invalid email (like tttt@ttt)
-3. Click on 'Subscribe' button
-4. Check that 'Invalid email address.' appear
+2. On the buttom of the page check that text near the email field equals 'Get our latest news and special sales'
+3. On the buttom of the page check that text under email field contains 'You may unsubscribe at any moment. For that purpose, please find my contact info in the legal notice.'
+4. Check that all characters on 'SUBSCRIBE' button in upper case
 
 
 **Test case #2 (Check languages)**
