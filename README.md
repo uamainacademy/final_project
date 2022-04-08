@@ -8,6 +8,7 @@
 4. Should be ability to pass browser, browser resolution, and thread count as parameters
 5. All logical blocks on pages should be implemented as separate classes
 6. If some test cases will fail - create bug report for them
+7. Should be added README.md file with discription how to run your framework
 
 
 **Test case #1 (Subscribe with invalid email)**
