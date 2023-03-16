@@ -40,7 +40,7 @@
 4. Fill 'First name' field with 'James8'
 5. Fill the rest fields valid data
 6. Check that 'First name' higlighted in red
-7. Check that pop-up with text 'Invalid name' appear under field
+7. Check that pop-up with text 'Invalid format.' appear under field
 
 
 **Test case #5 (Check categories)**
@@ -110,6 +110,7 @@
 14. On the 'SHOPPING CART' page check that 'Total' calculated correct
 15. Click 'PROCEED TO CHECKOUT'
 16. Fill 'PERSONAL INFORMATION' form with valid data (without password)
+17. Check all necessary checkboxes
 17. Click 'CONTINUE'
 18. Fill the 'ADDRESSES' form with valid data
 19. Click 'CONTINUE'
