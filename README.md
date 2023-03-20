@@ -76,9 +76,9 @@
 5. Sort products as 'Name, Z to A'
 6. Check that sorting is correct
 7. Sort products as 'Price, low to high'
-8. Check that sorting is correct
+8. Check that sorting is correct (if price has discount, check regular price not discount)
 9. Sort products as 'Price, high to low'
-10. Check that sorting is correct
+10. Check that sorting is correct (if price has discount, check regular price not discount)
 
 
 **Test case #9 (Adding to cart)**
